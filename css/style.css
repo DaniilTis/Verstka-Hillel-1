@@ -153,3 +153,11 @@ header {
 	line-height: 26px;
 	text-align: center;
 }
+
+.main-icon {
+	background: rgba(52, 84, 122, 1);
+}
+
+.icon {
+	background-image: url("../images/Vector.png");
+}
