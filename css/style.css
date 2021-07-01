@@ -85,13 +85,17 @@ body {
 	text-transform: uppercase;
 }
 
-.first-item {
-	margin: 0px 42px 166px 399px;
-	сolor: rgba(52, 84, 122, 1);
-}
 .item {
 	margin-right: 42px;
 	color: rgba(0, 0, 0, 1);
+	font-size: 16px;
+	line-height: 26px;
+}
+.first-item {
+	margin: 0px 42px 166px 399px;
+	color: rgba(52, 84, 122, 1);
+	font-size: 16px;
+	line-height: 26px;
 }
 
 header {
@@ -132,4 +136,20 @@ header {
 	left: 400px;
 	top: 482px;
 	margin: 0px 1295px 146px 400px;
+}
+
+.main-title {
+	margin: 119px 759px 50px 758px;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 37px;
+	text-align: center;
+}
+
+.main-text {
+	margin: 0px 690px 100px 690px;
+	color: rgba(114, 114, 114, 1);
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
 }
