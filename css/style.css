@@ -73,15 +73,13 @@
 }
 body {
 	font-family: roboto, sans-serif;
+	margin: 0 auto;
 }
 
 .conteiner {
-	max-width: 1110px;
+	width: 1110px;
 }
 
-nav a {
-	color: rgba(0, 0, 0, 1);
-}
 .menu {
 	margin-bottom: 166px;
 	text-transform: uppercase;
@@ -93,11 +91,9 @@ nav a {
 }
 .item {
 	margin-right: 42px;
+	color: rgba(0, 0, 0, 1);
 }
 
-.last-item {
-	margin-right: 910px;
-}
 header {
 	background-color: #e5e5e5;
 	background-position: 0 0;
@@ -124,15 +120,16 @@ header {
 	color: rgba(114, 114, 114, 1);
 }
 
-.button-border {
+.button {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 25px;
 	background: #34547a;
 	width: 225px;
 	height: 65px;
 	left: 400px;
 	top: 482px;
-}
-
-.button {
-	color: white;
-	text-align: center;
+	margin: 0px 1295px 146px 400px;
 }
