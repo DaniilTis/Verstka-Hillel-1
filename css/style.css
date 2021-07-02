@@ -179,13 +179,21 @@ header {
 	margin: 57px 405px 100px 405px;
 }
 
-footer{
-	background-color:rgba(52, 84, 122, 1);
+footer {
+	background-color: rgba(52, 84, 122, 1);
 }
 
-.footer-title{
-	margin: 50px 1380px 82px 406px;
+.footer-title {
+	padding: 50px 0px 20px 406px;
 	font-size: 21px;
-	line-height: 25px;
 	font-weight: 500px;
+	line-height: 25px;
+	color: white;
+}
+
+.footer-text {
+	margin: 0px 50px 50px 406px;
+	color: white;
+	font-size: 13px;
+	line-height: 21px;
 }
