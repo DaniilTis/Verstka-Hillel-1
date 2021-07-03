@@ -157,6 +157,28 @@ header {
 	background: rgba(52, 84, 122, 1);
 }
 
+.list-icon li {
+	display: inline-block;
+	background: url("../images/Group.png") left no-repeat;
+	margin: 100px 49px 100px 0px;
+}
+
+.icon-title {
+	margin-left: 70px;
+	font-weight: 500;
+	font-size: 21px;
+	color: rgba(255, 255, 255, 1);
+	line-height: 25px;
+}
+
+.icon-text {
+	margin-left: 70px;
+	font-weight: normal;
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 26px;
+}
+
 .video {
 	text-align: center;
 	margin-bottom: 100px;
